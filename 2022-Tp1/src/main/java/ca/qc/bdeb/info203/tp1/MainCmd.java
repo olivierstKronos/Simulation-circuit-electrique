@@ -26,6 +26,7 @@ public class MainCmd {
         println("\u001b[32mFélicitation! Vous avez compléter la grille avec succès" +
                 "\nSi vous voulez augmenter votre expérience de jeu, " +
                 "allez essayer la version app\u001b[0m");
+        println("crédit");
     }
 
     /**
@@ -235,6 +236,23 @@ public class MainCmd {
      */
     public static String input() {
         try {
+            return in.readLine();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+                               
+     /**
+     * Permet de faire une méthode simple, facile et qui produit moins d'erreur que la
+     * classe {@link java.util.Scanner Scanner}. Aussi, il y a la possibilité d'ajouter une question
+     *
+     * @parameter
+     * @return Une chaîne de caractère entré par l'utilisateur sur la console
+     */
+    public static String input(String prompt) {
+        try {
+            print(prompt)
             return in.readLine();
         } catch (IOException e) {
             e.printStackTrace();
