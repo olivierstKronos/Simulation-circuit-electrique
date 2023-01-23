@@ -1,0 +1,4 @@
+# Mot croisé invalide, il y a un conflit entre les lettres `u` et `o`
+# au centre, votre programme ne devrait pas l'accepter
+oui:0:1:H:Réponse positive
+non:1:0:V:Réponse négative

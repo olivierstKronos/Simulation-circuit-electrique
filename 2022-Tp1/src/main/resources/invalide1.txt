@@ -1,0 +1,4 @@
+# Ce document ne devrait pas compter comme un mot-croisé valide
+lol:0:1:H:Expression textuelle d'un amusement léger
+aaaaaa:0:1:CETTE LIGNE ne marche pas, il manque un V ou un H sur la ligne
+non:1:0:V:Réponse négative
