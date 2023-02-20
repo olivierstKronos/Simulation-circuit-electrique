@@ -1,3 +1,0 @@
-# Mot croisé très simple, pour tester le code
-lol:0:1:H:Expression textuelle d'un amusement léger
-non:1:0:V:Réponse négative
